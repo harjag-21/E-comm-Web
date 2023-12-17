@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-comm website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary " style="background-color: darkblue;">
+        <div class="container-fluid"  style="background-color:#00001a;color: white;height: 65px;">
+          <a class="navbar-brand" href="#"><img src="data:image/png;base64,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" alt="" style="height: 60px;width: 60px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:white">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"style="color:white">You</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color:white">
+                  Menu
+                </a>
+                <ul class="dropdown-menu"style="color:white">
+                  <li><a class="dropdown-item" href="#">Mobiles,Electronics</a></li>
+                  <li><a class="dropdown-item" href="#">Groceries</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Fashion and Beauty</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"style="color:white">
+                <a class="nav-link" >Cart</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/HTL2023/GW/Homepage_DesktopHeroTemplate_3000x1200-Toy-Fiesta-APAY_2x_unrec._CB570529351_.jpg" alt="" style="width: 100%;height: 400px;">
+    
+      <h4 style="margin-top: 40px; margin-left: 20px;">Deals of the day</h4>
+      
+        <div class="card" style="width: 18rem;display: inline-block; margin-top: 20px;margin-left: 20px;">
+        <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Symbol/2023/Deals_Dec/1239_INSPB_TopBanner_Prime.png" class="card-img-top" alt="..."style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">Clothes</h5>
+          <p class="card-text"><b>Deal of the day</b><br>Made for Amazon - Most Loved Fashion</p>
+          <a href="#" class="btn btn-primary">See more...</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;display: inline-block;margin-left: 20px;">
+        <img src="https://m.media-amazon.com/images/I/41ZiNufv4fL._AC_SY200_.jpg" class="card-img-top" alt="..." style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">Cookware</h5>
+          <p class="card-text"><b>Deal of the day</b> <br> Cookware, Pots & Pans from Top Brands</p>
+          <a href="#" class="btn btn-primary">See more...</a>
+        </div>
+      </div>
+      <div class="card" style="width: 18rem;display: inline-block;margin-left: 20px;">
+        <img src="https://m.media-amazon.com/images/I/419IdaXiS4L._AC_UF226,226_FMjpg_.jpg" class="card-img-top" alt="..."style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">  Electronics</h5>
+          <p class="card-text"><b>Deal of the day</b> <br> Appliances for your home | Up to 55% off</p>
+          <a href="#" class="btn btn-primary">See more...</a>
+        </div>
+      </div>
+      
+      <div class="card" style="width: 18rem;display: inline-block;margin-left: 20px;">
+        <img src="https://m.media-amazon.com/images/I/A1DtudTpwYL._CB577344841__AC_SY200_.jpg" class="card-img-top" alt="..."style="height: 200px;">
+        <div class="card-body">
+          <h5 class="card-title">Shoes</h5>
+          <p class="card-text"><b>Deal of the day</b> <br> Men's Footwear: Bata, Hush Puppies and more</p>
+          <a href="#" class="btn btn-primary">See more...</a>
+        </div>
+      </div>
+      
+      <div class="bed"style="margin-left: 20px;">
+        <h4 style="margin-top: 40px; margin-left: 20px;">Up to 45% off | Create a haven of relaxation with bedroom furniture</h4>
+      <img src="https://m.media-amazon.com/images/I/51g9RdCCYxL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/71t1vdUazvL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/51fokLPmg-L._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/91PaFW8mn4L._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/91iLXE4OWWL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="skin"style="margin-left: 20px;">
+        <h4 style="margin-top: 40px; margin-left: 20px;">Up to 50% off | Skincare and haircare essentials redefine beauty</h4>
+      <img src="https://m.media-amazon.com/images/I/718WZMH08ML._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/61zhLsD9KcL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/513sLXufbFL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/61Kybt6krZL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      </div>
+      <div class="clothes" style="margin-left: 20px;">
+        <h4 style="margin-top: 40px; margin-left: 20px;">Flat 60% off | Women's fashion collection where trend meets elegance</h4>
+      <img src="https://m.media-amazon.com/images/I/410Hk3HXZAL._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..." style="height: 250px;">
+      <img src="https://m.media-amazon.com/images/I/31qfi+TwMJL._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..."style="height: 250px;">
+      <img src="https://m.media-amazon.com/images/I/41g118be2-L._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..."style="height: 250px;">
+      <img src="https://m.media-amazon.com/images/I/31KzkGQEQIL._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..."style="height: 250px;">
+      <img src="https://m.media-amazon.com/images/I/41FA+8BN3ZL._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..."style="height: 250px;">
+      <img src="https://m.media-amazon.com/images/I/41MclcOtc7L._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..."style="height: 250px;">
+      <img src="https://m.media-amazon.com/images/I/41i-Z-xR9cL._AC_SR400,600_AGcontrast_.jpg" class="img-thumbnail" alt="..."style="height: 250px;">
+      
+      </div>
+      <div class="decor" style="margin-top: 40px;margin-left: 20px;">
+        <h4 style="margin-top: 40px; margin-left: 20px;">Christmas Decor | Amazon Brands & more</h4>
+      <img src="https://m.media-amazon.com/images/I/71ziAmMP+YL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/61eUDbXjv9L._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/81XxM5U4wiL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/71oEnQLF7cL._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/71ChFRMpo0L._AC_SY200_.jpg" class="img-thumbnail" alt="...">
+
+      </div>
+      <div class="sports" style="margin-left: 20px;">
+        <h4 style="margin-top: 40px; margin-left: 20px;">Best Sellers in Sports, Fitness & Outdoors</h4>
+      <img src="https://m.media-amazon.com/images/I/61A1c3tCoiL._AC_UY218_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/61WGgYBm53L._AC_UY218_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/41b7XG6XUsL._AC_UY218_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/61ktWfbqlZL._AC_UY218_.jpg" class="img-thumbnail" alt="...">
+      <img src="https://m.media-amazon.com/images/I/718pWXW0AGL._AC_UY218_.jpg" class="img-thumbnail" alt="...">
+      
+      </div>
+
+      <div class="new" style="margin-top: 60px; text-align: center;">
+        <h5>See personalised recommendations</h5>
+        <button style="background-color:gold; width: 150px;">Sign in</button> <br>
+        New customer? <a href="#" style="text-decoration: none;">Start here</a>
+      </div>
+      <footer class="foote" >
+        <div class="foot">
+          <div class="1"  >
+            <h5>Get to know us</h5> <h6><br>About us <br>Careers <br>
+            Press releases <br> Amazon Science</h6>
+          </div>
+          <div class="2">
+            <h5>Connect with Us
+              <h6>Facebook <br>Instagram <br>Twitter</h6>
+            </h5>
+          </div>
+          <div class="3">
+            <h5>Make money with us</h5>
+            <h6>Sell on Amazon <br>Sell under Amazon accelerator <br>Protect and build your brand <br>Amazon global selling br Become an affiliate</h6>
+          </div>
+        </div>
+        <div class="copy">
+          <a href="#">Conditions of Use and Sale</a> 
+          <a href="#">Privacy Notice</a>
+          <a href="#">Interest based ads</a><br>
+          &#169;1996-2023, Amazon.com, Inc. or its affiliates
+
+        </div>
+      </footer>
+
+      <style>
+        
+        .new{
+          margin-top: 50px;
+          margin-bottom: 50px;
+        }
+        .foot{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          background-color: #232F3E;
+          color: wheat;
+          height: 300px;
+          div{
+            margin-top: 30px;
+          }
+        }
+        .copy{
+          color: white;
+          background-color: #131A22;
+          text-align: center;
+          height: 80px;
+          a{text-decoration: none;
+            color: wheat;
+            margin-right: 16px;
+          }
+          
+        }
+        
+      </style>
+</body>
+</html>
